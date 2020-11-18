@@ -1,0 +1,144 @@
+
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 6;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#myNavbar a{
+    color: black;
+}
+
+*,
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'arial';
+    font-weight: 300;
+    text-align: center;
+}
+
+.media img {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.btn {
+    border-radius: 3px;
+    background-color: #1F1F1F;
+    color: white;
+}
+
+
+.jumbotron {
+    background: url(images/iol.jpg);
+    color: #ffffff;
+    background-attachment: fixed;
+}
+
+.jumbotron img {
+    height: 30%;
+}
+
+/* @media only screen and (max-width: 375px) {
+    .jumbotron img {
+      position: relative;
+      top: 0;
+      width: 80%;
+    }
+  } */
+
+.panel-success img {
+    height: 15em;
+    width: 100%;
+}
+
+
+
+.jumbotron .media {
+    margin: 50px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title span {
+    font-weight: 900;
+}
+
+
+footer {
+    background: #1F1F1F;
+    border-top: 4px solid #1F1F1F;
+    font-size: 0.9em;
+    padding: 80px 0 0;
+    position: relative;
+}
+
+
+.footer-copyright {
+    margin-top: -40px;
+    text-align: center;
+    background-color: white;
+}
+
+footer * {
+    color: #ffffff;
+}
+
+.copy {
+    text-align: center;
+}
+
+
+
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: navy;
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 15px 0 15px 30px;
+    font-family: arial;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #fff;
+    text-decoration: underline;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin-right: 20em;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+/* #cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+} */
+/*Cookie Consent End*/
