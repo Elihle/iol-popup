@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +7,10 @@
   <meta name="author" content="Lihle Menzeleleli">
   <title>IOL|News that connects South Africa</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="style.css" rel="stylesheet">
 </head>
-
 <body>
 
   <nav class="navbar navbar-inverse">
@@ -29,7 +25,7 @@
 
       <div class="row">
         <div class="col-md-6">
-            <img src="images/iol-logo.svg" alt="">
+            <img src="images/iol-logo.svg" id="logo" alt="">
         </div>
         <div class="col-md-6">
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -55,7 +51,7 @@
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
-          <p><a href="#" class="btn btn-lg">Find Out More <i class="icon icon-angle-right"></i></a>
+          <p><a href="#news1" class="btn btn-lg">Find Out More <i class="icon icon-angle-right"></i></a>
           </p>
         </div>
       </div>
@@ -63,44 +59,44 @@
   </div>
   </section>
 
-<div class="news">
+<div class="news" id="news1">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="panel panel-info">
+                <div class="panel">
                   <div class="panel-heading">
-                    <h3 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h3>
+                    <h4 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h4>
                   </div>
                   <a href="#" class="list-group list-group-flush text-center"><img class="media-object"
                       src="images/zuma.jpg"/></a>
                   <div class="panel-footer">
-                    <a class="btn btn-lg btn-block" href="">Read more..</a>
+                    <a class="btn btn-lg btn-block" href="https://www.iol.co.za/">Read More</a>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4">
-                <div class="panel panel-info">
+                <div class="panel">
                   <div class="panel-heading">
-                    <h3 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h3>
+                    <h4 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h4>
                   </div>
                   <a href="#" class="list-group list-group-flush text-center"><img class="media-object"
                       src="images/zuma.jpg"/></a>
                   <div class="panel-footer">
-                    <a class="btn btn-lg btn-block" href="">Read more..</a>
+                    <a class="btn btn-lg btn-block" href="https://www.iol.co.za/">Read More</a>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4">
-                <div class="panel panel-info">
+                <div class="panel">
                   <div class="panel-heading">
-                    <h3 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h3>
+                    <h4 class="text-center">Jacob Zuma on relationship with Zondo: I dispute that we were never friends</h4>
                   </div>
                   <a href="#" class="list-group list-group-flush text-center"><img class="media-object"
                       src="images/zuma.jpg"/></a>
                   <div class="panel-footer">
-                    <a class="btn btn-lg btn-block" href="">Read more..</a>
+                    <a class="btn btn-lg btn-block" href="https://www.iol.co.za/">Read More</a>
                   </div>
                 </div>
               </div>
@@ -109,31 +105,34 @@
 
 </div>
 
-<div class="container">
-    <div class="row "id="cookieConsent">
-        <div class="col-md-12">
-        </div>
-        <div id="closeCookieConsent"><h5>X</h5></div>
-        <p>We use cookies to give you the best possible experience. <a href="https://www.iol.co.za/privacy-policy)"  target="_blank">Learn more</a> about how we use cookies</p>
-        </div>
+
+<!-- Cookies Popup -->
+<div class="ad-container">
+  <img src="images/ad_banner.jpg">
 </div>
 
+<div class="container">
+    <div class="row cookie-banner"id="cookieConsent">
+        <div class="col-md-10">
+          <p>We use cookies to give you the best possible experience. <a href="https://www.iol.co.za/privacy-policy)"  target="_blank">Learn more</a> about how we use cookies.</p>
+        </div>
+        <div class="col-md-2">
+          <div id="closeCookieConsent"><h5>X</h5></div>
+        </div>
+        </div>
+</div>
 
     <footer id="footer">
       <div class="footer-copyright">
         <div class="col-md-12">
-            <p class="copy"> made with <i class="fa fa-heart" style="font-size:15px;color:red"></i> by Lihle
-            Menzeleleli</p>
+            <!-- <p class="copy"> made with <i class="fa fa-heart" style="font-size:15px;color:red"></i> by Lihle
+            Menzeleleli</p> -->
       </div>
     </footer>
 </div>
+</div>
 
-
-
-   
-    </div>
-
-    <script src="index.js"></script>
+  <script src="index.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
